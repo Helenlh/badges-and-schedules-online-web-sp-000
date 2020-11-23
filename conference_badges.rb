@@ -30,7 +30,7 @@ end
 # puts badges
 # end 
   
-room_assignments.each_line do |line|
-puts line.chomp
-end  
+# room_assignments.each_line do |line|
+# puts line.chomp
+# end  
     
