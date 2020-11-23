@@ -22,11 +22,11 @@ end
   
 def printer(attendees) 
   badges_and_room_assignments.each_line do |line|
-  
+  puts line.chomp 
   #batch_badge_creator(attendees) 
-  puts badges.first
-  assign_rooms(attendees)
-  attendee = attendees.first 
- puts "Hello, my name is #{attendee}."
+#   puts badges.first
+#   assign_rooms(attendees)
+#   attendee = attendees.first 
+# puts "Hello, my name is #{attendee}."
   end 
 end 
