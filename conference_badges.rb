@@ -21,8 +21,8 @@ end
   
   
 def printer(attendees) 
-  puts badges
-  puts rooms
+  puts #{badges}
+  puts #{rooms
 end 
  
 # badges << "Hello, my name is #{attendee}."
