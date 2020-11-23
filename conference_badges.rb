@@ -22,8 +22,8 @@ end
   
 def printer(attendees) 
   batch_badge_creator(attendees) 
-  
-  puts [badges]
+  puts "Hello, my name is #{attendee}."
+  #puts [badges]
   assign_rooms(attendees)
   puts [rooms]
 end 
