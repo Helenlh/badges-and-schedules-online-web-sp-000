@@ -29,7 +29,5 @@ end
   
 room_assignments.each_line do |line|
 puts line.chomp
-      end
-      printer(attendees)  
-    end  
+end  
     
