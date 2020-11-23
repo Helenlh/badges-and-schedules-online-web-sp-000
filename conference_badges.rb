@@ -27,6 +27,6 @@ def printer(attendees)
   puts badges.first
   #assign_rooms(attendees)
   #attendee = attendees.first 
- puts "Hello, my name is #{attendee}."
+ puts "Hello, my name is #{attendees}."
   end 
 end 
