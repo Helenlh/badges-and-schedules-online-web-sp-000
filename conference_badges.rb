@@ -21,6 +21,10 @@ end
   
   
 def printer(attendees) 
+  puts badges
+  puts rooms
+end 
+
 #   attendees.each do |attendee|
 # badges << "Hello, my name is #{attendee}."
 # end 
