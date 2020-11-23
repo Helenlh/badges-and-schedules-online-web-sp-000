@@ -27,8 +27,8 @@ end
 puts badges
 end 
   
-  badges_and_room_assignments.each_line do |line|
-    puts line.chomp
+room_assignments.each_line do |line|
+puts line.chomp
       end
       printer(attendees)  
     end  
