@@ -25,6 +25,7 @@ def printer(attendees)
   puts "Hello, my name is #{attendee}."
   #puts [badges]
   assign_rooms(attendees)
+  
   puts [rooms]
 end 
  
