@@ -25,12 +25,3 @@ def printer(attendees)
   puts #{rooms}
 end 
  
-# badges << "Hello, my name is #{attendee}."
-# end 
-# puts badges
-# end 
-  
-# room_assignments.each_line do |line|
-# puts line.chomp
-# end  
-    
