@@ -24,7 +24,7 @@ def printer(attendees)
   batch_badge_creator(attendees) 
   puts badges.first
   assign_rooms(attendees)
-  attendee = attendees.first 
+  attendee = attendees.chomp 
  puts "Hello, my name is #{attendee}."
 end 
  
