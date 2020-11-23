@@ -21,6 +21,7 @@ end
   
   
 def printer(attendees) 
+  
   puts #{badges}
   puts #{rooms}
 end 
