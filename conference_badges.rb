@@ -21,11 +21,11 @@ end
   
   
 def printer(attendees) 
-  attendees.each do |attendee|
-badges << "Hello, my name is #{attendee}."
-end 
-puts badges
-end 
+#   attendees.each do |attendee|
+# badges << "Hello, my name is #{attendee}."
+# end 
+# puts badges
+# end 
   
 room_assignments.each_line do |line|
 puts line.chomp
